@@ -43,19 +43,25 @@ Then copy paste the above lines in the crontab and finally set the crontab.
 **Crontab examples :**
 
 #Morning monday to friday
+
 24 07 * * 1-5 /usr/bin/python3 /home/intelliswift/tools/selenium/dcheck.py morning>> /home/intelliswift/tools/selenium/logs/dcheck_morning.out 2>&1
 
 #Afternoon monday to friday
+
 54 11 * * 1-5 /usr/bin/python3 /home/intelliswift/tools/selenium/dcheck.py afternoon>> /home/intelliswift/tools/selenium/logs/dcheck_afternoon.out 2>&1
 
 #Evening monday to friday
+
 24 15 * * 1-5 /usr/bin/python3 /home/intelliswift/tools/selenium/dcheck.py evening>> /home/intelliswift/tools/selenium/logs/dcheck_evening.out 2>&1
 
 #saturday 
+
 54 11 * * 6 /usr/bin/python3 /home/intelliswift/tools/selenium/dcheck.py saturday>> /home/intelliswift/tools/selenium/logs/dcheck_saturday.out 2>&1
 
 #sunday
+
 54 11 * * 7 /usr/bin/python3 /home/intelliswift/tools/selenium/dcheck.py sunday>> /home/intelliswift/tools/selenium/logs/dcheck_sunday.out 2>&1
 
 #input feed check saturday and sunday
+
 50 11 * * 6-7 /usr/bin/python3 /home/intelliswift/tools/selenium/input_feed_check.py inputfeed>> /home/intelliswift/tools/selenium/logs/input_feed_check.out 2>&1
