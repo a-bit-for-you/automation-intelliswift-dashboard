@@ -1,4 +1,11 @@
-# Installation steps
+# Description
+
+Name of the project: Dashboard Checking Automation System
+Technologies used: Python 3.7 ,Anaconda, Selenium , smtplib.
+Description: 
+This software is used to check the records of p0 websites. It captures the screenshots of all the records and sends it to the team via email automatically.
+
+**Installation steps**
 
 **1. Anaconda Installation**
 
