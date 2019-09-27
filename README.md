@@ -32,10 +32,14 @@ Visit https://www.seleniumhq.org and click on download button.
 Then search for the Google Chrome Driver.
 Then download the driver which is Latest stable release ChromeDriver.
 
+**Modification required in your program**
 You need to provide the path of the chrome driver in your code.
 eg. driver=webdriver.Chrome('/home/intelliswift/sachin/yo/chromedriver')#location of the chrome driver
+Also, provide the path of the screenshots and logs in your code.
 
-Now you can run your program. 
+Now you can run your program by typing 
+python dcheck.py morning
+(morning is the command line arguement. If you type morning then the code will send the emails to the specified person in your code and same for afternoon, evening, saturday and sunday. Check the crontab notes below.)
 (Note for linux users : Don't forget to enter into the virtual environment by typing conda activate).
 
 
